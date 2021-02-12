@@ -5,9 +5,9 @@ https://codepen.io/bmm515/pen/gOLLjjK
 <!--
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-    1. What is Semantic HTML? 
+    1. What is Semantic HTML? Semantic HTML are tags that give meaning to your code. They help to describe your code and split it into sections with meaning.
     2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
+    3. What is an attribute and where do we put it? Attributes are used when you want to include information (like the link to an image) that you do not want rendered on the page. We place attributes inside of tags. 
     4. What is the h1 tag used for? How many times should I use it on a page?
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
