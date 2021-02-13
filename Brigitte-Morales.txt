@@ -111,11 +111,28 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    A block level element is an element that begins a new line on a webpage and extends the full width of the available horizontal space of it's parent element. It creates large blocks of content, like paragraphs or page divisions. They can contain other block level elements or inline elements. 
+    A block level element also has a top and bottom margin. Inline elements do not. 
+    In contrast, inline elements do not start a new line and can begin within a line. Also, it's width only extends as far as defined by its tags. 
     2. What happens when an element is positioned absolutely? 
+    The CSS value "absolute" for positioning indicates than an element should be removed from the normal flow of the document and placed in an exact/precise position on the page. It affects how the elements before/after it are positioned on the page.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Use the box model. 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block level elements: 
+    -h1-h6
+    -p
+    -div
+
+    Inline elements: 
+    -a (anchor)
+    -img
+
+    Inline-block:
+    -button
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
-
+    The box model says that everything we see on a webpage is composed of a series of boxes. Every element is a rectangular box with a specified width and height. There are rules that govern how these boxes are layed out next to one another.
+    In order to properly calculate the width of an element using the box model, you must add padding, borders, and margin.
 
    --> 
