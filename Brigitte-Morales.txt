@@ -74,14 +74,39 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     Type the following: ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    Type the following: 
+    Type the following: rm. You have to be careful when using this because when something is deleted from the terminal it is lost forever. There is no way to recover it. 
     34. Why should I use version control? 
-    
+    You want to use version control (such as Git) because you can save all of your progress. You can have everything saved in your version history. Thus, if you want to look at and edit a previous version, it will be there and easy to find. It will also help other developers work from certain versions of your code. 
     35. How often should I commit to github?
-    
+    Commit often and use meaningful messages so you know what changes you have made to your code. 
     36. What is the command we would use to push our repo up to github? 
-    
+    The following command will push all changes from my local computer to github: git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+
+    Lamba's git flow:
+    1. Go to the project on GitHub
+    2. Fork the project
+    3. Copy the URL
+    4. Open your terminal
+    5. CD into the directory you are using
+    6. git clone [enter URL you copied]
+    7. CD into the project
+    8. git checkout -b "firstname-lastname"
+    9. git code . (This will open VS Code)
+    10. Do your work.
+    11. Save your work in VS code.
+    12. git add .
+    13. git commit -m "Add commit message here"
+    14. git push -u origin "firstname-lastname"
+
+    Pull Request
+    Go to your forked repo on GitHub. NOT LAMBDA'S REPO
+    Change branch from main to yours.
+    Click on pull request
+    Change the base repository to your repo
+    Submit pull request in Canvas
+    DO NOT MERGE
+
 
 Stretch Questions
 
