@@ -64,17 +64,17 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     To change to capitals or lowercase use the CSS selector "text-transform". Set the value to uppercase (ex: text-transform:uppercase) to make all of the letters uppercase. You can set the value to lowercase to change the letters to lowercase. To capitalize the first character of each word, set the value to capitalize. 
     28. How do I add a 1px border around my div that is dotted and black?
-
+    Type the following into CSS:  div{ border:1 px dotted black;} 
     29. How do I select everything on the page? 
-
+    Use the universal selector *. Type the following: *{ }
     30. How do I write a comment in CSS?
-    
+    Type the following: /* */ ... Enter the text in between the *.
     31. How do I find out what file I am in, when I am using the command line? 
-    
+    Type the following: pwd. This will tell you what working directory you are in.
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    
+    Type the following: ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    
+    Type the following: 
     34. Why should I use version control? 
     
     35. How often should I commit to github?
