@@ -18,15 +18,16 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     10. What is a class? A class is a title that can be applied to multiple elements on a page. Multiple elements can share the same class.
     11. What elements can I add a class to? The class attribute can be used on any html element.
     12. How many times can I use the same class on a page? You can use the class element multiple times on a page.
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+    13. How do I get my link to open in a new tab? If I use the <a href=" "> the link will open in the current window/tab (by default). To open in a new tab, I should include the target attribute and set it equal to _blank. For example, <a href=" " target=_blank>
+    14. What is the alt attribute in the image tag used for? The alt attribute specifies an alternate text for an image if an image cannot be displayed.
+    15. How do I reference an id? To reference an id in CSS use #.
+    16. What is the difference between a section and a div: The div is a generic container used for grouping other HTML elemnets together. It is not semantic HTML. Rather, it is considered presentational HTML. It is invisible by default and is not super useful in html, but is useful for CSS. 
+        In contrast, the section tag is considered semantic HTML. It can be used to wrap the content.
+    17. What is CSS used for? CSS is used to add style and layout to our webpages.
+    18. How to we select an element? Example - every h2 on the page: To select an element type in the element and then type {}. For example, to select all of the h2 on a page type the following: h2{}. Then you can add any selectors to all of the h2 on the page.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one: The difference between a class and an id is that an id can only be used for one element per page, whereas a class can be used for multiple elementes on a page. For example, an id would be equivalent to a drivers license (each person has their own unique license number). A class is similar to a classroom (which contains many students).
+    20. How do we select classes in CSS? To select a class use a period before the class name. Ex: class= "class1" would be selected by typing .class1{}. 
+    21. How do we select a p element with a single class of “human””? Type the following: p .human{ }. 
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
